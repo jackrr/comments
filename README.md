@@ -12,8 +12,6 @@ minutes and that's fully OK.
 
 # TODO
 
-- Add to dev setup README for prisma stuff
-- Finish post links on homepage
 - Post page
 - Very basic layout w/ tailwind
 
@@ -24,7 +22,14 @@ Install dependencies:
 npm install
 ```
 
+
+Run the migrations/bootstrap your db:
+```
+npx prisma migrate dev
+```
+
 Run the dev server:
 ```
 npm run dev
 ```
+

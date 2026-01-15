@@ -13,4 +13,6 @@ Free your hands. Shoe them.`,
   },
 ];
 
-async function persistPosts() {}
+db.post.createMany({ data: posts }).then((ok) => {
+  console.log(ok);
+});
