@@ -10,11 +10,6 @@ This prompt is intentionally open-ended. You will likely not be able
 to fully build out a full-stack comment experience within the next 45
 minutes and that's fully OK.
 
-# TODO
-
-- Post page
-- Very basic layout w/ tailwind
-
 ## Dev setup
 
 Install dependencies:
@@ -28,8 +23,15 @@ Run the migrations/bootstrap your db:
 npx prisma migrate dev
 ```
 
-Run the dev server:
+Run the next.js server:
 ```
 npm run dev
 ```
+
+In a separate terminal, run the express server REST API:
+```
+npm run server
+```
+
+Visit `http://localhost:3000`
 
